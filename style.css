@@ -9,3 +9,91 @@
     display: block;
     clear: both;
 }
+
+.contenitore{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.blocco_head{
+    background-color: hotpink;
+    height: 100px;
+    margin: 20px 0;
+}
+
+.blocco_sez1{
+    background-color: goldenrod;
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+.blocco_sez2{
+    background-color: blue;
+    height: 600px;
+    margin-bottom: 5px;
+}
+
+.blocco_foot{
+    background-color: purple;
+    height: 50px;
+}
+
+.blocco_sez2 .superiore{
+    height: 80px;
+    margin-bottom: 20px;
+    background-color: cyan;
+}
+
+.col{
+    height: calc(600px - 80px - 20px - 15px);
+    background-color: cyan;
+    float: left;
+}
+
+.col_1,.col_3{
+    width: 200px;
+}
+
+.col_2{
+    width: calc(100% - 200px - 200px - 10px - 10px);
+}
+
+.col_1{
+    margin-right: 10px;
+}
+
+.col_3{
+    margin-left: 10px;
+}
+
+/* debug */
+
+.debug .contenitore{
+    border: 1px solid salmon;
+    padding: 20px;
+}
+
+.debug header{
+    border: 1px dashed darkcyan;
+}
+
+.debug main{
+    border: 2px solid darkred;
+    padding: 5px;
+
+}
+
+.debug main .blocco_sez1{
+    border: 1px dashed brown;
+
+}
+
+.debug main .blocco_sez2{
+    border: 1px dashed green;
+
+}
+
+.debug footer{
+    border: 1px dashed olivedrab;
+
+}
