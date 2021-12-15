@@ -11,51 +11,52 @@
 }
 
 .contenitore{
-    max-width: 1024px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
 .blocco_head{
-    background-color: hotpink;
+    background-color: rgb(215, 120, 220);
     height: 100px;
     margin: 20px 0;
 }
 
 .blocco_sez1{
-    background-color: goldenrod;
+    background-color: rgb(222, 207, 122);
     height: 500px;
     margin-bottom: 20px;
 }
 
 .blocco_sez2{
-    background-color: blue;
-    height: 600px;
+    background-color: rgb(30, 125, 248);
+    height: 700px;
     margin-bottom: 5px;
 }
 
 .blocco_foot{
-    background-color: purple;
+    background-color: rgb(113, 44, 244);
     height: 50px;
+    margin-bottom: 20px;
 }
 
 .blocco_sez2 .superiore{
     height: 80px;
     margin-bottom: 20px;
-    background-color: cyan;
+    background-color: rgb(165, 200, 225);
 }
 
 .col{
-    height: calc(600px - 80px - 20px - 15px);
-    background-color: cyan;
+    height: calc(700px - 80px - 20px - 15px);
+    background-color: rgb(165, 200, 225);
     float: left;
 }
 
 .col_1,.col_3{
-    width: 200px;
+    width: 300px;
 }
 
 .col_2{
-    width: calc(100% - 200px - 200px - 10px - 10px);
+    width: calc(100% - 300px - 300px - 10px - 10px);
 }
 
 .col_1{
